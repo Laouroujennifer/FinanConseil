@@ -25,8 +25,8 @@
                 $('.fixed-top').removeClass('bg-white shadow');
             }
         } else {
-            if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-white shadow').css('top', -45);
+            if ($(this).scrollTop() > 10) {
+                $('.fixed-top').addClass('bg-white shadow').css('top', -10);
             } else {
                 $('.fixed-top').removeClass('bg-white shadow').css('top', 0);
             }

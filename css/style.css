@@ -97,10 +97,7 @@ h6,
     transition: .5s;
 }
 
-.top-bar {
-    height: 45px;
-    border-bottom: 1px solid rgba(53, 94, 252, .07);
-}
+
 
 .navbar .dropdown-toggle::after {
     border: none;
